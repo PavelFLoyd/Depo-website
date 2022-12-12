@@ -1,0 +1,128 @@
+@media screen and (max-width: 1777px){
+	.header-nav{
+		padding-left: 15px;
+	}
+
+]	.button-header{
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 1137px){
+	.header-nav,.button-header{
+		display: none;
+	}
+	.menu-toggle{
+		display: block;
+		position: absolute;
+		right: 24px;
+	}
+	.rus-lan{
+		position: inherit;
+	}
+	.launch-button{
+		position: absolute;
+		right: 72px;
+	}
+	.russia{
+		position: absolute;
+		right: 248px;
+	}
+}
+@media screen and (max-width: 350px){
+	.ob-cont{
+		width: 192px;
+	}
+}
+@media screen and (max-width: 546px){
+	.russia{
+		display: none;
+	}
+}
+@media screen and (max-width: 420px){
+	.lanch{
+		font-size: 14px;
+	}
+	.logo img{
+		width: 100px;
+	}
+}
+@media screen and (max-width: 1325px){
+	.trade-block{
+		display: block;
+	}
+	.transfer-window{
+		position: inherit;
+	}
+	.swap{
+		display: none;
+	}
+	.window-notchild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    h1{
+    	text-align: center;
+    	margin-bottom: 0;
+    	margin-top: 32px;
+    }
+    .brr1{
+    	display: none;
+    }
+    .trade-lanch{
+    	justify-content: center;
+    }
+    .trade-leftside{
+    	padding-top: 0px;
+    }
+    .down-luan{
+    	justify-content: center;
+    }
+}
+@media screen and (max-width: 1031px){
+	h1{
+		font-size: 45px;
+	}
+}
+@media screen and (max-width: 794px){
+	h1{
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 677px){
+	h1{
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 615px){
+	.trade-block{
+		flex-direction: column-reverse;
+		display: flex;
+	}
+	.trade-container{
+		margin: 0 24px;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.trade-leftside{
+		padding-top: 32px;
+	}
+	.trade-block{
+		overflow: hidden;
+	}
+}
+@media screen and (max-width: 505px){
+	.transfer-window{
+		width: 500px;
+		overflow: hidden;
+	}
+}
+@media screen and (max-width: 420px){
+	.transfer-window{
+		width: 400px;
+	}
+	h1{
+		font-size: 20px;
+	}
+}
