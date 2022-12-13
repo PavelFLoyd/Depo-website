@@ -78,6 +78,18 @@
     .down-luan{
     	justify-content: center;
     }
+    .vniz{
+    	padding-top: 50px;
+    }
+    .socials{
+    	padding-top: 50px;
+    }
+    .block1-body{
+    	display: block;
+    }
+    .block1-desc{
+    	position: static;
+    }
 }
 @media screen and (max-width: 1031px){
 	h1{
@@ -92,6 +104,12 @@
 @media screen and (max-width: 677px){
 	h1{
 		font-size: 25px;
+	}
+	.container-block1{
+		margin: 0 24px;
+	}
+	.container-block2{
+		margin: 0 24px;
 	}
 }
 @media screen and (max-width: 615px){
@@ -111,11 +129,26 @@
 	.trade-block{
 		overflow: hidden;
 	}
+	h2{
+		font-size: 24px;
+		white-space: unset;
+	}
+	.block1-desc{
+		font-size: 14px;
+		white-space: unset;
+		line-height: 24px;
+	}
+	h3{
+		font-size: 32px;
+	}
 }
 @media screen and (max-width: 505px){
 	.transfer-window{
 		width: 500px;
 		overflow: hidden;
+	}
+	.block1{
+		padding-top: 80px;
 	}
 }
 @media screen and (max-width: 420px){
@@ -124,5 +157,51 @@
 	}
 	h1{
 		font-size: 20px;
+	}
+	.socials p{
+		display: none;
+	}
+	.socials{
+		padding-top: 61px;
+	}
+}
+@media screen and (max-width: 1420px){
+	.step2{
+		margin-right: 0px;
+		margin-left: 48px;
+	}
+	.step3{
+		margin-top: 24px;
+	}
+}
+@media screen and (max-width: 1053px){
+	.step2{
+		margin-left: 0px;
+		margin-top: 24px;
+	}
+}
+@media screen and (max-width: 930px){
+	.h-start{
+		display: block;
+	}
+	.start-trade{
+		position: static;
+	}
+}
+@media screen and (max-width: 420px){
+	.create{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.step1p{
+		margin-left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.shirok{
+		text-align: center;
+		font-size: 13px;
 	}
 }

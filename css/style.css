@@ -450,6 +450,164 @@ input {
 	filter: drop-shadow(0px 5px 2px rgb(0 0 0 / 0.4));
 	background-color: #3474CA;
 }
-.window-notchild{
-	
+.footer-header-container{
+	margin: 0 24px;
+}
+.vniz{
+	display: flex;
+	align-items: center;
+	padding-top: 150px;
+}
+.vniz p{
+	margin-left: 10px;
+	font-family: 'Commissioner', sans-serif;
+	white-space: nowrap;
+	font-size: 12px;
+	color: #6F767E;
+}
+.footer-header-body{
+	display: flex;
+}
+.socials{
+	position: absolute;
+	right: 24px;
+	display: flex;
+	align-items: center;
+	padding-top: 145px;
+	transition: 0.3s;
+}
+.socials a{
+	transition: 0.3s;
+}
+.socials img{
+	align-items: center;
+	display: flex;
+	transition: 0.3s;
+}
+.socials p{
+	color: #6F767E;
+	font-size: 12px;
+	font-family: 'Commissioner', sans-serif;
+	white-space: nowrap;
+	margin-right: 24px;
+	transition: 0.3s;
+}
+.socials a:not(:last-child){
+	margin-right: 16px;
+	transition: 0.3s;
+}
+.socials a:hover{
+	  transform: scale(1.3);
+        border: 3px solid #3E8BF3; 
+        border-radius: 50px;
+        transition: 0.3s;
+}
+.socials a img{
+	transition: 0.3s;
+}
+.container-block1{
+	margin: 0 110px;
+}
+h2{
+	white-space: nowrap;
+	font-size: 48px;
+	color: black;
+	font-family: 'Commissioner', sans-serif;
+	font-weight: 500;
+	margin-top: 0;
+	letter-spacing: 2px;
+}
+.block1{
+	padding-top: 140px;
+	padding-bottom: 80px;
+}
+.block1-body{
+	display: flex;
+	align-items: center;
+}
+.block1-desc{
+	position: absolute;
+	right: 110px;
+	white-space: nowrap;
+	color: #6F767E;
+	font-size: 18px;
+	font-family: 'Commissioner', sans-serif;
+	line-height: 32px;
+	align-items: center;
+	margin-top: 0px;
+}
+.block2{
+	padding-top: 120px;
+}
+.container-block2{
+	margin: 0 110px;
+}
+h3{
+	white-space: nowrap;
+	font-size: 48px;
+	color: black;
+	font-family: 'Commissioner', sans-serif;
+	font-weight: 500;
+	margin-top: 0;
+	letter-spacing: 2px;
+	margin-bottom: 48px;
+}
+.h-start{
+	display: flex;
+}
+.start-trade{
+	background: #3E8BF3;
+	border-radius: 10px;
+	width: 165px;
+	height: 55px;
+	color: white;
+	text-decoration: none;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-family: 'Commissioner', sans-serif;
+	white-space: nowrap;
+	position: absolute;
+	right: 110px;
+	transition: 0.3s;
+}
+.start-trade:hover{
+	transition: 0.3s;
+	filter: drop-shadow(0px 5px 2px rgb(0 0 0 / 0.4));
+	background-color: #3474CA;
+}
+.steps{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.step1p{
+	margin-top: 24px;
+	margin-left: 18px;
+	font-family: 'Commissioner', sans-serif;
+	white-space: nowrap;
+	color: black;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 24px;
+}
+.create{
+	margin-top: 0px;
+	font-size: 24px;
+	color: black;
+	white-space: nowrap;
+	font-family: 'Commissioner', sans-serif;
+	margin-bottom: 24px;
+}
+.shirok{
+	color: #6F767E;
+	white-space: nowrap;
+	margin-top: 0;
+	font-size: 16px;
+	font-family: 'Commissioner', sans-serif;
+}
+.step2{
+	margin-left: 24px;
+	margin-right: 24px;
 }
