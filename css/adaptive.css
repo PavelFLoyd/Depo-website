@@ -27,6 +27,38 @@
 		position: absolute;
 		right: 248px;
 	}
+	.allcont-block3{
+		flex-direction: column-reverse;
+		display: flex;
+	}
+	.country{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 400px;
+	}
+	.country li:not(:last-child){
+		margin-bottom: 0px;
+		margin-right: 16px;
+	}
+	.world{
+		position: absolute;
+		right: 27px;
+		padding-top: 95px;
+	}
+	.world-podkl{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.br232{
+		display: none;
+	}
+	.br2232{
+		display: none;
+	}
+	.h232{
+		white-space: unset;
+	}
 }
 @media screen and (max-width: 350px){
 	.ob-cont{
@@ -111,6 +143,9 @@
 	.container-block2{
 		margin: 0 24px;
 	}
+	.container-block3{
+		margin: 0 24px;
+	}
 }
 @media screen and (max-width: 615px){
 	.trade-block{
@@ -141,6 +176,9 @@
 	h3{
 		font-size: 32px;
 	}
+	h4{
+		font-size: 32px;
+	}
 }
 @media screen and (max-width: 505px){
 	.transfer-window{
@@ -149,6 +187,18 @@
 	}
 	.block1{
 		padding-top: 80px;
+	}
+	.world{
+		width: 320px;
+		height: 135px;
+	}
+	.rod-lan-podkl{
+		display: block;
+	}
+	.podkl{
+		display: block;
+		margin-left: 0px;
+		margin-top: 16px;
 	}
 }
 @media screen and (max-width: 420px){
@@ -203,5 +253,93 @@
 	.shirok{
 		text-align: center;
 		font-size: 13px;
+	}
+}
+@media screen and (max-width: 1280px){
+	.faq-and-ques{
+		display: block;
+	}
+	.accordion{
+		position: static;
+	}
+	.faq{
+		display: flex;
+		align-items: center;
+		padding-bottom: 64px;
+	}
+	.otv{
+		position: absolute;
+		right: 110px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.container-block4{
+		margin: 0 24px;
+	}
+	.faq{
+		display: block;
+	}
+	.otv{
+		position: static;
+	}
+	.contenttt p{
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 820px){
+	.accordion .contentBx .label{
+		white-space: normal;
+		font-size: 24px;
+	}
+	.accordion{
+		width: 520px;
+	}
+	.contenttt p{
+		font-size: 14px;
+		width: 400px;
+	}
+	.accordion .contentBx.active .contenttt{
+		height: 300px;
+	}
+}
+@media screen and (max-width: 533px){
+	.accordion .contentBx .label{
+		white-space: normal;
+		font-size: 15px;
+		padding-left: 0px;
+	}
+	.accordion{
+		width: 470px;
+	}
+}
+@media screen and (max-width: 458px){
+	.accordion .contentBx .label{
+		white-space: normal;
+		font-size: 10px;
+		padding-left: 0px;
+	}
+	.accordion{
+		width: 400px;
+	}
+	.contenttt p{
+		font-size: 12px;
+		width: 300px;
+	}
+}
+@media screen and (max-width: 386px){
+	.accordion .contentBx .label{
+		white-space: normal;
+		font-size: 8px;
+		padding-left: 0px;
+	}
+	.accordion{
+		width: 300px;
+	}
+	.contenttt p{
+		font-size: 12px;
+		width: 200px;
+	}
+	.accordion .contentBx.active .contenttt{
+		height: 400px;
 	}
 }
