@@ -694,6 +694,7 @@ h3{
 }
 .block4{
 	padding-top: 120px;
+	padding-bottom: 180px;
 }
 .container-block4{
 	margin: 0 113px;
@@ -765,4 +766,78 @@ h4{
 	font-size: 16px;
 	margin-left: 24px;
 	width: 690px;
+}
+.container-block5{
+	margin: 0 110px;
+}
+.block5{
+	padding-top: 240px;
+}
+h5{
+	white-space: nowrap;
+	font-size: 48px;
+	color: black;
+	font-family: 'Commissioner', sans-serif;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+.ph5{
+	font-size: 18px;
+	color: #6F767E;
+	white-space: nowrap;
+	font-family: 'Commissioner', sans-serif;
+	margin-bottom: 32px;
+}
+.block5-body{
+	display: flex;
+}
+.h5-lan{
+	margin-top: 172px;
+}
+.phone{
+	padding-left: 320px;
+}
+.container-footer{
+	margin: 0 110px;
+}
+footer{
+	padding-top: 128px;
+	padding-bottom: 75px;
+	display: flex;
+}
+.footer-body{
+	display: flex;
+	align-items: center;
+}
+.footer-socials{
+	position: absolute;
+	padding-top: 0;
+	right: 110px;
+}
+.teams-privacy{
+	position: absolute;
+	right: 960px;
+}
+.teams-privacy a{
+	text-decoration: none;
+	color: #6F767E;
+	font-size: 12px;
+	font-family: 'Commissioner', sans-serif;
+	transition: 0.3s;
+	white-space: nowrap;
+}
+.teams-privacy a:not(:last-child) {
+	margin-right: 32px;
+}
+.teams-privacy a:hover{
+	color: black;
+	font-size: 13px;
+}
+.pdepo{
+	text-decoration: none;
+	color: #6F767E;
+	font-size: 12px;
+	white-space: nowrap;
+	font-family: 'Commissioner', sans-serif;
 }
