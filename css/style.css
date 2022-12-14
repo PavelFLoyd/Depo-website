@@ -721,8 +721,7 @@ h4{
 }
 .accordion{
 	width: 800px;
-	position: absolute;
-	right: 110px;
+	margin-left: auto;
 }
 .accordion .contentBx{
 	position: relative;
