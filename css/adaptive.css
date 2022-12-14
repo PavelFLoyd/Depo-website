@@ -444,6 +444,12 @@
 		position: relative;
 		left: 50%;
 	}
+	.block5{
+		padding-top: 0;
+	}
+	.block4{
+		padding-bottom: 0px;
+	}
 }
 @media screen and (max-width: 421px){
 	.footer-body{
